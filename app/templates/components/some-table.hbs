@@ -1,0 +1,13 @@
+{{#light-table table height='65vh' as |t|}}
+
+  {{t.head
+    fixed=true
+  }}
+
+  {{#t.body
+    canSelect=false
+    as |body|
+  }}
+  {{/t.body}}
+
+{{/light-table}}
